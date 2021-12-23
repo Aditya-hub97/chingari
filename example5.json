@@ -1,0 +1,11 @@
+{
+    "description": "Graph", 
+    "external_url": "https://gateway.pinata.cloud/ipfs/QmXsGzXBSbpGLPm27hihzEGjUCWeep9miqwQY5hQFFrW71", 
+    "image": "https://gateway.pinata.cloud/ipfs/QmXsGzXBSbpGLPm27hihzEGjUCWeep9miqwQY5hQFFrW71", 
+    "name": "graph",
+    "attributes": [{
+        "trait_type": "Color", 
+        "value": "Human"
+      }
+    ]
+}

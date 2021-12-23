@@ -1,0 +1,97 @@
+.creator-pool-whole {
+  padding: 1rem;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-head-createp {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 2rem 0;
+}
+
+.creatorp-card-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  flex-direction: column;
+  width: 70%;
+  box-shadow: gray 0px 0px 5px;
+}
+
+.creatorp-card-grid:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.creatorp-card-grid:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.creator-pool-card {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: lightgray solid 1px;
+  padding: 1rem;
+  border-radius: inherit;
+}
+
+.rewards-holder,
+.address-holder,
+.amount-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 3;
+  padding: 0.5rem;
+}
+
+.text-input {
+  padding: 0.6rem;
+  outline: none;
+}
+
+.buttons-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 3;
+}
+
+.btn {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .creatorp-card-grid {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .creator-pool-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rewards-holder,
+  .address-holder,
+  .amount-holder {
+    align-items: center;
+  }
+
+  .creator-pool-whole {
+    padding: 0;
+  }
+
+  .creator-pool-card {
+    padding: 0.5rem 0;
+  }
+}
