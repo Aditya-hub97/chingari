@@ -1,6 +1,7 @@
 .explore-whole{
   background-color: #260e2e;
   padding-top: 1em;
+  height:440vh;
 }
 @media  screen and (max-width:768px) {
   .explore-whole{

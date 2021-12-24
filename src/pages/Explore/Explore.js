@@ -22,7 +22,7 @@ const Explore = () => {
 
   return (
     <div className="explore-whole">
-      <h1 className="main-head-explore">Explore Collections</h1>
+      <h1 className="main-head-explore" >Explore Collections</h1>
       {local == undefined || local == 0 ? (
         <h1 className="loading" style={{color:"white"}}>Loading...</h1>
       ) : (
