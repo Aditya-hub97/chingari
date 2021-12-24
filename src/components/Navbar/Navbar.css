@@ -73,8 +73,10 @@
 }
 
 .list-item:hover {
-  color: rgb(87, 87, 87);
+  color: orange
 }
+
+
 @media screen and (max-width: 1000px){
   .main-link{
     font-size: medium;
